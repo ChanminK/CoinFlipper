@@ -23,7 +23,6 @@ export async function addTransaction(
 ): Promise<Transaction> {
   const key = opts?.idemKey ? `tx:${userId}:${opts.idemKey}` : `tx:${userId}:${randomUUID()}`;
 
-  // serialize per-user updates and apply idempotency if provided
   return await withLock(`balance:${userId}`, async () => {
     if (opts?.idemKey) {
       const idem = await runOnce(key, async () => "ok");

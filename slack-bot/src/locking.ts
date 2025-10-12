@@ -1,5 +1,3 @@
-// Simple in-process async lock per key.
-// NOTE: For a multi-process deployment, replace with a distributed lock.
 const queues = new Map<string, Promise<unknown>>();
 
 export async function withLock<T>(key: string, fn: () => Promise<T>): Promise<T> {

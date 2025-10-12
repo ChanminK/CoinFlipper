@@ -6,10 +6,10 @@
       "play": true,
       "see": true,
       "createdAt": "2025-10-05T19:54:33.726Z",
-      "updatedAt": "2025-10-07T05:30:16.617Z",
+      "updatedAt": "2025-10-09T04:11:30.474Z",
       "stats": {
-        "currentStreak": 2,
-        "longestStreak": 2
+        "currentStreak": 1,
+        "longestStreak": 12
       }
     },
     "U03U380TSNT": {
@@ -17,7 +17,7 @@
       "play": true,
       "see": true,
       "createdAt": "2025-10-06T00:47:17.308Z",
-      "updatedAt": "2025-10-06T00:47:36.223Z",
+      "updatedAt": "2025-10-08T21:51:03.824Z",
       "stats": {
         "currentStreak": 0,
         "longestStreak": 0
@@ -37,12 +37,12 @@
     "U0947SL6AKB": {
       "id": "U0947SL6AKB",
       "play": true,
-      "see": false,
+      "see": true,
       "createdAt": "2025-10-06T04:29:54.687Z",
-      "updatedAt": "2025-10-06T04:29:54.687Z",
+      "updatedAt": "2025-10-12T01:10:25.901Z",
       "stats": {
-        "currentStreak": 0,
-        "longestStreak": 0
+        "currentStreak": 8,
+        "longestStreak": 8
       }
     },
     "U090B1V22BD": {
@@ -50,38 +50,225 @@
       "play": true,
       "see": false,
       "createdAt": "2025-10-07T03:43:17.846Z",
-      "updatedAt": "2025-10-07T05:30:16.618Z",
+      "updatedAt": "2025-10-08T10:43:16.044Z",
       "stats": {
-        "currentStreak": 2,
-        "longestStreak": 2
+        "currentStreak": 0,
+        "longestStreak": 4
+      }
+    },
+    "U079XM9PARJ": {
+      "id": "U079XM9PARJ",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-07T22:23:33.134Z",
+      "updatedAt": "2025-10-07T22:23:33.134Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U092BGL0UUQ": {
+      "id": "U092BGL0UUQ",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-07T22:23:42.815Z",
+      "updatedAt": "2025-10-08T21:38:56.928Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 18
+      }
+    },
+    "U08U68WA0CR": {
+      "id": "U08U68WA0CR",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-07T22:23:44.325Z",
+      "updatedAt": "2025-10-07T22:23:44.325Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U08S635DBUN": {
+      "id": "U08S635DBUN",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-07T22:24:01.320Z",
+      "updatedAt": "2025-10-07T22:24:01.320Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U0926KMCVDJ": {
+      "id": "U0926KMCVDJ",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-08T00:02:03.526Z",
+      "updatedAt": "2025-10-08T21:51:03.822Z",
+      "stats": {
+        "currentStreak": 6,
+        "longestStreak": 6
+      }
+    },
+    "U09GWV19TN1": {
+      "id": "U09GWV19TN1",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-08T00:28:41.277Z",
+      "updatedAt": "2025-10-08T00:38:01.021Z",
+      "stats": {
+        "currentStreak": 6,
+        "longestStreak": 6
+      }
+    },
+    "U082MJNT5U2": {
+      "id": "U082MJNT5U2",
+      "play": false,
+      "see": false,
+      "createdAt": "2025-10-08T11:39:30.886Z",
+      "updatedAt": "2025-10-08T11:39:30.886Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U09GGK1JTC4": {
+      "id": "U09GGK1JTC4",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-08T12:55:59.941Z",
+      "updatedAt": "2025-10-08T15:11:28.261Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U086TNY7PE0": {
+      "id": "U086TNY7PE0",
+      "play": true,
+      "see": true,
+      "createdAt": "2025-10-08T15:36:31.767Z",
+      "updatedAt": "2025-10-08T15:36:47.303Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U09CK4WGQUF": {
+      "id": "U09CK4WGQUF",
+      "play": true,
+      "see": true,
+      "createdAt": "2025-10-09T10:30:38.468Z",
+      "updatedAt": "2025-10-09T10:30:49.078Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U091L1X1XBM": {
+      "id": "U091L1X1XBM",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-11T11:08:27.351Z",
+      "updatedAt": "2025-10-11T11:08:27.351Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
+      }
+    },
+    "U07D01SEFFV": {
+      "id": "U07D01SEFFV",
+      "play": true,
+      "see": false,
+      "createdAt": "2025-10-11T18:08:24.507Z",
+      "updatedAt": "2025-10-11T18:08:24.508Z",
+      "stats": {
+        "currentStreak": 0,
+        "longestStreak": 0
       }
     }
   },
   "balances": {
     "U0828FYS2UC": {
       "userId": "U0828FYS2UC",
-      "amount": 65,
-      "updatedAt": "2025-10-07T05:30:16.359Z"
+      "amount": 180,
+      "updatedAt": "2025-10-08T21:38:56.679Z"
     },
     "U03U380TSNT": {
       "userId": "U03U380TSNT",
-      "amount": 90,
-      "updatedAt": "2025-10-06T01:22:39.295Z"
+      "amount": 185,
+      "updatedAt": "2025-10-08T21:51:02.012Z"
     },
     "U091JJ2JF8E": {
       "userId": "U091JJ2JF8E",
-      "amount": 100,
-      "updatedAt": "2025-10-06T01:47:57.952Z"
+      "amount": 200,
+      "updatedAt": "2025-10-07T23:28:16.148Z"
     },
     "U0947SL6AKB": {
       "userId": "U0947SL6AKB",
-      "amount": 90,
-      "updatedAt": "2025-10-06T04:35:11.093Z"
+      "amount": 215,
+      "updatedAt": "2025-10-08T00:39:04.876Z"
     },
     "U090B1V22BD": {
       "userId": "U090B1V22BD",
-      "amount": 105,
-      "updatedAt": "2025-10-07T05:30:14.522Z"
+      "amount": 210,
+      "updatedAt": "2025-10-08T10:43:14.181Z"
+    },
+    "U079XM9PARJ": {
+      "userId": "U079XM9PARJ",
+      "amount": 200,
+      "updatedAt": "2025-10-07T23:28:16.162Z"
+    },
+    "U092BGL0UUQ": {
+      "userId": "U092BGL0UUQ",
+      "amount": 0,
+      "updatedAt": "2025-10-08T21:38:55.054Z"
+    },
+    "U08U68WA0CR": {
+      "userId": "U08U68WA0CR",
+      "amount": 200,
+      "updatedAt": "2025-10-07T23:28:16.172Z"
+    },
+    "U08S635DBUN": {
+      "userId": "U08S635DBUN",
+      "amount": 200,
+      "updatedAt": "2025-10-07T23:28:16.177Z"
+    },
+    "U0926KMCVDJ": {
+      "userId": "U0926KMCVDJ",
+      "amount": 145,
+      "updatedAt": "2025-10-08T21:51:03.568Z"
+    },
+    "U09GWV19TN1": {
+      "userId": "U09GWV19TN1",
+      "amount": 20,
+      "updatedAt": "2025-10-08T00:34:13.768Z"
+    },
+    "U09GGK1JTC4": {
+      "userId": "U09GGK1JTC4",
+      "amount": 0,
+      "updatedAt": "2025-10-08T15:11:28.261Z"
+    },
+    "U086TNY7PE0": {
+      "userId": "U086TNY7PE0",
+      "amount": 0,
+      "updatedAt": "2025-10-08T15:36:31.767Z"
+    },
+    "U09CK4WGQUF": {
+      "userId": "U09CK4WGQUF",
+      "amount": 0,
+      "updatedAt": "2025-10-09T10:30:38.468Z"
+    },
+    "U091L1X1XBM": {
+      "userId": "U091L1X1XBM",
+      "amount": 0,
+      "updatedAt": "2025-10-11T11:08:27.351Z"
+    },
+    "U07D01SEFFV": {
+      "userId": "U07D01SEFFV",
+      "amount": 0,
+      "updatedAt": "2025-10-11T18:08:24.508Z"
     }
   },
   "inventory": {},
@@ -265,6 +452,1086 @@
       "refId": "challenge:f87f2d3c-c32f-47ec-bcf6-b02d5d2b0c31",
       "idemKey": "challenge:f87f2d3c-c32f-47ec-bcf6-b02d5d2b0c31:payout:U0828FYS2UC",
       "createdAt": "2025-10-07T05:30:16.359Z"
+    },
+    {
+      "txId": "4c2114ec-1346-4c68-ab24-a6febff13205",
+      "userId": "U079XM9PARJ",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 100,
+      "refId": "daily_grant",
+      "idemKey": "daily:null",
+      "createdAt": "2025-10-07T22:23:33.832Z"
+    },
+    {
+      "txId": "be742e92-9a37-4648-8cb3-91915abacf15",
+      "userId": "U092BGL0UUQ",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 100,
+      "refId": "daily_grant",
+      "idemKey": "daily:null",
+      "createdAt": "2025-10-07T22:23:43.580Z"
+    },
+    {
+      "txId": "c986e4da-125b-4ddb-87fb-b3a7928a5b07",
+      "userId": "U08U68WA0CR",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 100,
+      "refId": "daily_grant",
+      "idemKey": "daily:null",
+      "createdAt": "2025-10-07T22:23:44.693Z"
+    },
+    {
+      "txId": "a137a82d-09b3-41fa-aaba-694c82992dba",
+      "userId": "U08S635DBUN",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 100,
+      "refId": "daily_grant",
+      "idemKey": "daily:null",
+      "createdAt": "2025-10-07T22:24:01.414Z"
+    },
+    {
+      "txId": "e53b9ff7-4000-44f9-ab6a-e41f5dd68af3",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 95,
+      "refId": "challenge:e375bf0e-0981-411f-a9b1-59012118d241",
+      "idemKey": "challenge:e375bf0e-0981-411f-a9b1-59012118d241:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:25:23.210Z"
+    },
+    {
+      "txId": "f2a7f337-a18f-46da-bb24-4845e7cc7a95",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 105,
+      "refId": "challenge:e375bf0e-0981-411f-a9b1-59012118d241",
+      "idemKey": "challenge:e375bf0e-0981-411f-a9b1-59012118d241:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:25:24.668Z"
+    },
+    {
+      "txId": "d63e76b7-6850-4ee5-a4fa-b7d8375b7c51",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 100,
+      "refId": "challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac",
+      "idemKey": "challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:26:07.628Z"
+    },
+    {
+      "txId": "221252dd-728a-42a3-a6c9-f1241e8c5951",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 110,
+      "refId": "challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac",
+      "idemKey": "challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:26:09.130Z"
+    },
+    {
+      "txId": "0ec37dcc-01de-4407-885c-28b63d0a173e",
+      "userId": "U0828FYS2UC",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 165,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.141Z"
+    },
+    {
+      "txId": "5ff00beb-0783-40df-8731-9e11c0ceccaf",
+      "userId": "U03U380TSNT",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 190,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.145Z"
+    },
+    {
+      "txId": "c2687ab0-2788-4df2-ae72-bf160414242f",
+      "userId": "U091JJ2JF8E",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 200,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.148Z"
+    },
+    {
+      "txId": "855b36f6-2c57-49cf-9e72-8d3898f8ef82",
+      "userId": "U0947SL6AKB",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 190,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.152Z"
+    },
+    {
+      "txId": "6ca30b29-9973-4dad-92af-fba5bf5f75c2",
+      "userId": "U090B1V22BD",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 205,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.157Z"
+    },
+    {
+      "txId": "fe8fc3c5-27fa-4ba3-bb3e-066fa56f32f9",
+      "userId": "U079XM9PARJ",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 200,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.162Z"
+    },
+    {
+      "txId": "564dbbe9-64f8-4069-ba07-6bcbd6021398",
+      "userId": "U092BGL0UUQ",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 210,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.168Z"
+    },
+    {
+      "txId": "07401c0e-53f6-4b74-960e-ba32c68ec088",
+      "userId": "U08U68WA0CR",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 200,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.172Z"
+    },
+    {
+      "txId": "0ac20130-a259-40e2-bf6f-d85946489c2f",
+      "userId": "U08S635DBUN",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 200,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.177Z"
+    },
+    {
+      "txId": "2b29574c-579e-4921-a960-aaa3e0933025",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 205,
+      "refId": "challenge:ed906d2c-767a-48ed-90df-26547d7b12a8",
+      "idemKey": "challenge:ed906d2c-767a-48ed-90df-26547d7b12a8:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:32:10.321Z"
+    },
+    {
+      "txId": "fe108b03-0e97-4a8a-86c7-75626eff5704",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 215,
+      "refId": "challenge:ed906d2c-767a-48ed-90df-26547d7b12a8",
+      "idemKey": "challenge:ed906d2c-767a-48ed-90df-26547d7b12a8:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:32:11.947Z"
+    },
+    {
+      "txId": "a472982f-ee33-42c7-b04f-47de9f0f4d91",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 160,
+      "refId": "challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab",
+      "idemKey": "challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:stake:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:33:22.644Z"
+    },
+    {
+      "txId": "6a4c2c3d-88f8-4b60-8dfb-8fe830b1537c",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 210,
+      "refId": "challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab",
+      "idemKey": "challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:33:22.649Z"
+    },
+    {
+      "txId": "9bec4a65-1a99-4ae2-a17a-ffb07e885f1b",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 220,
+      "refId": "challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab",
+      "idemKey": "challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:33:24.361Z"
+    },
+    {
+      "txId": "87ecabfd-c49c-41a9-97e6-c5658ffe3a11",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 225,
+      "refId": "challenge:1942a314-4c52-43f5-be0d-eb73a1e0a10f",
+      "idemKey": "challenge:1942a314-4c52-43f5-be0d-eb73a1e0a10f:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:36:05.079Z"
+    },
+    {
+      "txId": "8c758835-03a9-4804-89b1-45bca3c331c6",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 230,
+      "refId": "challenge:8cabe9df-a8ac-4fbb-802f-984dce5e6317",
+      "idemKey": "challenge:8cabe9df-a8ac-4fbb-802f-984dce5e6317:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:15.095Z"
+    },
+    {
+      "txId": "d138ebf9-d430-443d-bdf7-64b4b7e91cd2",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 225,
+      "refId": "challenge:760e09cc-0d67-4913-94e2-5681142eaeae",
+      "idemKey": "challenge:760e09cc-0d67-4913-94e2-5681142eaeae:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:45.353Z"
+    },
+    {
+      "txId": "e8e55b07-c298-4cc0-af52-77715584adbd",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 235,
+      "refId": "challenge:760e09cc-0d67-4913-94e2-5681142eaeae",
+      "idemKey": "challenge:760e09cc-0d67-4913-94e2-5681142eaeae:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:46.858Z"
+    },
+    {
+      "txId": "7c412d7e-792b-4fb5-97a5-c81173b4f1aa",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 240,
+      "refId": "challenge:760e09cc-0d67-4913-94e2-5681142eaeae",
+      "idemKey": "challenge:760e09cc-0d67-4913-94e2-5681142eaeae:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:52.383Z"
+    },
+    {
+      "txId": "d9ba694d-f1ab-4db4-83cc-56b8f9b46d39",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 245,
+      "refId": "challenge:825ae5d7-4145-454a-bc70-633bca07dd62",
+      "idemKey": "challenge:825ae5d7-4145-454a-bc70-633bca07dd62:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:38:57.709Z"
+    },
+    {
+      "txId": "6025070f-0a5d-4acd-875e-79051b0af0b1",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 240,
+      "refId": "challenge:27e3748b-445a-4bd2-9a09-c352b8941657",
+      "idemKey": "challenge:27e3748b-445a-4bd2-9a09-c352b8941657:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:39:14.019Z"
+    },
+    {
+      "txId": "1c8c8c76-fc3e-4c87-8d16-ef6f9afe6128",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 245,
+      "refId": "challenge:27e3748b-445a-4bd2-9a09-c352b8941657",
+      "idemKey": "challenge:27e3748b-445a-4bd2-9a09-c352b8941657:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:39:14.464Z"
+    },
+    {
+      "txId": "c61638df-71c5-4d85-88cd-7f6384501121",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 255,
+      "refId": "challenge:27e3748b-445a-4bd2-9a09-c352b8941657",
+      "idemKey": "challenge:27e3748b-445a-4bd2-9a09-c352b8941657:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:39:15.474Z"
+    },
+    {
+      "txId": "93f199a4-3aa8-41d8-99b5-3594f79a0e94",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 260,
+      "refId": "challenge:8ee7aa7a-97d3-4665-a93b-1ec56c93c67d",
+      "idemKey": "challenge:8ee7aa7a-97d3-4665-a93b-1ec56c93c67d:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:43:29.968Z"
+    },
+    {
+      "txId": "7d75652d-4171-47f8-9a9b-a0378c9060e3",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 255,
+      "refId": "challenge:9e2ca925-34fc-48a5-9064-d749e3300aee",
+      "idemKey": "challenge:9e2ca925-34fc-48a5-9064-d749e3300aee:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:43:52.438Z"
+    },
+    {
+      "txId": "208ba36f-0c9f-45cc-b4ba-8be59023a094",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 260,
+      "refId": "challenge:9e2ca925-34fc-48a5-9064-d749e3300aee",
+      "idemKey": "challenge:9e2ca925-34fc-48a5-9064-d749e3300aee:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:43:52.551Z"
+    },
+    {
+      "txId": "5eb61c26-917e-438f-bf29-06838e7e6295",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 255,
+      "refId": "challenge:3dff71f2-52b1-4045-b791-e1430555c22b",
+      "idemKey": "challenge:3dff71f2-52b1-4045-b791-e1430555c22b:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:44:00.970Z"
+    },
+    {
+      "txId": "188f89c4-2af9-4e16-9640-cfb464b76fda",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 260,
+      "refId": "challenge:3dff71f2-52b1-4045-b791-e1430555c22b",
+      "idemKey": "challenge:3dff71f2-52b1-4045-b791-e1430555c22b:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:44:01.089Z"
+    },
+    {
+      "txId": "09ec2631-e21d-4919-acf4-73045fc54e81",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 255,
+      "refId": "challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53",
+      "idemKey": "challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:04.879Z"
+    },
+    {
+      "txId": "a459f2c5-2d64-48a4-bd00-92894913e55c",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 265,
+      "refId": "challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53",
+      "idemKey": "challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:06.573Z"
+    },
+    {
+      "txId": "e3950458-6328-44d2-9252-f8f6cf0d3474",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 260,
+      "refId": "challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c",
+      "idemKey": "challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:13.909Z"
+    },
+    {
+      "txId": "1d432c5b-a344-40dc-9cb0-df1a9c1058e8",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 265,
+      "refId": "challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c",
+      "idemKey": "challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:14.166Z"
+    },
+    {
+      "txId": "2366bbe6-09b8-4515-8bfe-705643b713d5",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 155,
+      "refId": "challenge:22222103-f176-4fb1-a100-55275701655f",
+      "idemKey": "challenge:22222103-f176-4fb1-a100-55275701655f:stake:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:49:59.981Z"
+    },
+    {
+      "txId": "0e799eed-5cb5-49a9-b0d1-8501abbf2623",
+      "userId": "U0828FYS2UC",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 165,
+      "refId": "challenge:22222103-f176-4fb1-a100-55275701655f",
+      "idemKey": "challenge:22222103-f176-4fb1-a100-55275701655f:payout:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:50:01.754Z"
+    },
+    {
+      "txId": "a1639e38-be49-4e53-93a8-35e38bb901b5",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 160,
+      "refId": "challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6",
+      "idemKey": "challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6:stake:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:50:12.296Z"
+    },
+    {
+      "txId": "01fb7750-0f3b-4bdb-98de-275eac3f2eaf",
+      "userId": "U0828FYS2UC",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 170,
+      "refId": "challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6",
+      "idemKey": "challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6:payout:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:50:13.755Z"
+    },
+    {
+      "txId": "fbee956a-8adf-4eb6-93e3-04c10fa857a5",
+      "userId": "U0947SL6AKB",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 185,
+      "refId": "challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb",
+      "idemKey": "challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb:stake:U0947SL6AKB",
+      "createdAt": "2025-10-07T23:52:15.681Z"
+    },
+    {
+      "txId": "add1914f-ac33-482f-b941-237c033c2baf",
+      "userId": "U0947SL6AKB",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 195,
+      "refId": "challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb",
+      "idemKey": "challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb:payout:U0947SL6AKB",
+      "createdAt": "2025-10-07T23:52:17.216Z"
+    },
+    {
+      "txId": "60bde944-cd3d-4276-9b14-7549d50a2bcc",
+      "userId": "U0926KMCVDJ",
+      "type": "grant",
+      "amount": 100,
+      "balanceAfter": 100,
+      "refId": "daily_grant",
+      "idemKey": "daily:2025-10-07",
+      "createdAt": "2025-10-08T00:02:18.910Z"
+    },
+    {
+      "txId": "85b220c5-b12c-49e6-a06f-232b09095f69",
+      "userId": "U0926KMCVDJ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 95,
+      "refId": "challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0",
+      "idemKey": "challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:02:24.691Z"
+    },
+    {
+      "txId": "d8876460-e57e-4383-a262-90b857ccfcc6",
+      "userId": "U0926KMCVDJ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 105,
+      "refId": "challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0",
+      "idemKey": "challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:02:26.185Z"
+    },
+    {
+      "txId": "2b0d3d75-d273-499f-8a26-5c7caa26d233",
+      "userId": "U0926KMCVDJ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 110,
+      "refId": "challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0",
+      "idemKey": "challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:02:40.746Z"
+    },
+    {
+      "txId": "20cb8840-90fc-4261-b22a-1300ee72a3fd",
+      "userId": "U0926KMCVDJ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 105,
+      "refId": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f",
+      "idemKey": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:04:48.886Z"
+    },
+    {
+      "txId": "fb33a6ef-a9e5-4ffb-a07b-5acd8cb97afb",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 165,
+      "refId": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f",
+      "idemKey": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T00:04:48.890Z"
+    },
+    {
+      "txId": "255ac2ca-7284-4f24-ad33-e8a3cd159dd8",
+      "userId": "U0926KMCVDJ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 115,
+      "refId": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f",
+      "idemKey": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:04:50.415Z"
+    },
+    {
+      "txId": "17c07f7f-bf8a-4c14-923e-88348ff57b87",
+      "userId": "U0926KMCVDJ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 110,
+      "refId": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e",
+      "idemKey": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:10.238Z"
+    },
+    {
+      "txId": "c59ee0ac-13c4-42fd-be71-a72988e5aa29",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 260,
+      "refId": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e",
+      "idemKey": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:05:10.244Z"
+    },
+    {
+      "txId": "7a0c1cea-ec7b-4581-8a64-95ceef29bf6f",
+      "userId": "U0926KMCVDJ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 120,
+      "refId": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e",
+      "idemKey": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:11.809Z"
+    },
+    {
+      "txId": "01f754eb-24c7-4756-9127-df937c1199a9",
+      "userId": "U0926KMCVDJ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 125,
+      "refId": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e",
+      "idemKey": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:19.772Z"
+    },
+    {
+      "txId": "677c53bb-0473-4c33-8f22-0a266776e168",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 265,
+      "refId": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e",
+      "idemKey": "challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:05:19.778Z"
+    },
+    {
+      "txId": "b9a7f7ba-67aa-4a71-a3fe-a4aa65e63ed6",
+      "userId": "U0926KMCVDJ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 130,
+      "refId": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f",
+      "idemKey": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:21.006Z"
+    },
+    {
+      "txId": "66f1ce6d-d4e8-4ac8-ac98-589f38b9b7ad",
+      "userId": "U0828FYS2UC",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 170,
+      "refId": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f",
+      "idemKey": "challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:refund:U0828FYS2UC",
+      "createdAt": "2025-10-08T00:05:21.011Z"
+    },
+    {
+      "txId": "3fef6bf5-03f8-450e-a0d5-11c55942f15f",
+      "userId": "U0926KMCVDJ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 125,
+      "refId": "challenge:0943ce04-b966-41cd-8897-471492b20518",
+      "idemKey": "challenge:0943ce04-b966-41cd-8897-471492b20518:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:06:05.810Z"
+    },
+    {
+      "txId": "79b68836-f97e-458f-81a2-36df9b1a11cf",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 260,
+      "refId": "challenge:0943ce04-b966-41cd-8897-471492b20518",
+      "idemKey": "challenge:0943ce04-b966-41cd-8897-471492b20518:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:06:05.817Z"
+    },
+    {
+      "txId": "2a163de6-9943-4890-b502-830a31fbbff4",
+      "userId": "U0926KMCVDJ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 135,
+      "refId": "challenge:0943ce04-b966-41cd-8897-471492b20518",
+      "idemKey": "challenge:0943ce04-b966-41cd-8897-471492b20518:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:06:07.413Z"
+    },
+    {
+      "txId": "6f4146a3-b7e1-4909-877a-7e599e99f529",
+      "userId": "U0926KMCVDJ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 140,
+      "refId": "challenge:0943ce04-b966-41cd-8897-471492b20518",
+      "idemKey": "challenge:0943ce04-b966-41cd-8897-471492b20518:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:06:13.484Z"
+    },
+    {
+      "txId": "9ce78526-6b4a-447a-acb3-bd8faa4533ba",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 265,
+      "refId": "challenge:0943ce04-b966-41cd-8897-471492b20518",
+      "idemKey": "challenge:0943ce04-b966-41cd-8897-471492b20518:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:06:13.488Z"
+    },
+    {
+      "txId": "692b2301-5f88-4e44-be62-68a8d320182f",
+      "userId": "U09GWV19TN1",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": -5,
+      "refId": "challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79",
+      "idemKey": "challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:stake:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:31:20.981Z"
+    },
+    {
+      "txId": "0a56bb10-9638-43ed-84e3-766bd610fe57",
+      "userId": "U09GWV19TN1",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 5,
+      "refId": "challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79",
+      "idemKey": "challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:payout:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:31:22.402Z"
+    },
+    {
+      "txId": "edae3dcd-5842-4f8a-91a1-d6bf90d6e0ae",
+      "userId": "U09GWV19TN1",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 10,
+      "refId": "challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79",
+      "idemKey": "challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:refund:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:32:17.667Z"
+    },
+    {
+      "txId": "8769b4f1-6fd6-45d9-9a00-a0fee5097d51",
+      "userId": "U09GWV19TN1",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 5,
+      "refId": "challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08",
+      "idemKey": "challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08:stake:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:33:26.188Z"
+    },
+    {
+      "txId": "88de5d34-1e83-4681-8afd-9b455a18a3d2",
+      "userId": "U09GWV19TN1",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 15,
+      "refId": "challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08",
+      "idemKey": "challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08:payout:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:33:27.665Z"
+    },
+    {
+      "txId": "e37d6c5e-971f-4abf-84fc-0f2096add828",
+      "userId": "U09GWV19TN1",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 10,
+      "refId": "challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee",
+      "idemKey": "challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee:stake:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:34:12.331Z"
+    },
+    {
+      "txId": "4b0566f5-de1c-4293-953c-0c7abad1b308",
+      "userId": "U09GWV19TN1",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 20,
+      "refId": "challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee",
+      "idemKey": "challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee:payout:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:34:13.768Z"
+    },
+    {
+      "txId": "989035ae-8aba-40c0-8492-08c653fc71c3",
+      "userId": "U0947SL6AKB",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 190,
+      "refId": "challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334",
+      "idemKey": "challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:stake:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:37:33.897Z"
+    },
+    {
+      "txId": "362f5dec-3aa8-4461-84c1-8b09e3161d57",
+      "userId": "U0947SL6AKB",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 200,
+      "refId": "challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334",
+      "idemKey": "challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:payout:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:37:35.395Z"
+    },
+    {
+      "txId": "cc6c9b67-0c91-4f4a-aa10-6c74a588958a",
+      "userId": "U0947SL6AKB",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 205,
+      "refId": "challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334",
+      "idemKey": "challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:refund:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:37:38.729Z"
+    },
+    {
+      "txId": "0ecdfb04-c0e5-474c-af77-74e7ac4f7618",
+      "userId": "U0947SL6AKB",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 200,
+      "refId": "challenge:78ee96dc-6bee-4f92-999e-17624f2e1216",
+      "idemKey": "challenge:78ee96dc-6bee-4f92-999e-17624f2e1216:stake:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:38:36.084Z"
+    },
+    {
+      "txId": "edf3b608-8fe3-48a2-84f5-81151aca1377",
+      "userId": "U0947SL6AKB",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 210,
+      "refId": "challenge:78ee96dc-6bee-4f92-999e-17624f2e1216",
+      "idemKey": "challenge:78ee96dc-6bee-4f92-999e-17624f2e1216:payout:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:38:37.607Z"
+    },
+    {
+      "txId": "57fc9a1c-001b-4b2e-8519-e2733bfa29f6",
+      "userId": "U0947SL6AKB",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 205,
+      "refId": "challenge:004225d6-2817-42e6-b4e9-94e71100a3d8",
+      "idemKey": "challenge:004225d6-2817-42e6-b4e9-94e71100a3d8:stake:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:39:03.325Z"
+    },
+    {
+      "txId": "2ea3e63c-966f-43e9-8159-5ab5331cd50c",
+      "userId": "U0947SL6AKB",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 215,
+      "refId": "challenge:004225d6-2817-42e6-b4e9-94e71100a3d8",
+      "idemKey": "challenge:004225d6-2817-42e6-b4e9-94e71100a3d8:payout:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:39:04.876Z"
+    },
+    {
+      "txId": "1eb129ec-dbdb-440f-825e-0476e20b81ce",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 260,
+      "refId": "challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf",
+      "idemKey": "challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:47:14.112Z"
+    },
+    {
+      "txId": "60e5fba7-fcfe-4bfc-82ad-9db8d4177cf0",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 270,
+      "refId": "challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf",
+      "idemKey": "challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:47:15.571Z"
+    },
+    {
+      "txId": "add4af18-758e-4305-9209-a80d46af68d6",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 275,
+      "refId": "challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf",
+      "idemKey": "challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:47:17.227Z"
+    },
+    {
+      "txId": "510f8a55-76a2-4d60-8b6c-2ec35fac07f4",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 165,
+      "refId": "challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df",
+      "idemKey": "challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:14:31.711Z"
+    },
+    {
+      "txId": "6d7ffb49-bf35-47ba-bd3f-f410f873237d",
+      "userId": "U0828FYS2UC",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 175,
+      "refId": "challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df",
+      "idemKey": "challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:payout:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:14:33.598Z"
+    },
+    {
+      "txId": "02958c4a-7ed0-424b-9501-3487e96793a4",
+      "userId": "U0828FYS2UC",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 180,
+      "refId": "challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df",
+      "idemKey": "challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:refund:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:14:35.799Z"
+    },
+    {
+      "txId": "961b30e1-0339-49b5-9a60-d0c22f83482c",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 175,
+      "refId": "challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486",
+      "idemKey": "challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:34:17.970Z"
+    },
+    {
+      "txId": "03febf32-65ec-46bc-be54-58ac423d5e87",
+      "userId": "U090B1V22BD",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 200,
+      "refId": "challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486",
+      "idemKey": "challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:stake:U090B1V22BD",
+      "createdAt": "2025-10-08T10:34:17.978Z"
+    },
+    {
+      "txId": "d7220796-63ec-4cac-9616-a0975b5b1acd",
+      "userId": "U090B1V22BD",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 210,
+      "refId": "challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486",
+      "idemKey": "challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:payout:U090B1V22BD",
+      "createdAt": "2025-10-08T10:34:19.436Z"
+    },
+    {
+      "txId": "40fc539b-93de-4a72-9cd2-e69e33a93473",
+      "userId": "U090B1V22BD",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 205,
+      "refId": "challenge:0259f7aa-7591-454d-9e78-1f6e64d676db",
+      "idemKey": "challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:stake:U090B1V22BD",
+      "createdAt": "2025-10-08T10:38:03.783Z"
+    },
+    {
+      "txId": "47efd17a-d60b-46a9-b069-ba63d6e7a88b",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 170,
+      "refId": "challenge:0259f7aa-7591-454d-9e78-1f6e64d676db",
+      "idemKey": "challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:38:03.789Z"
+    },
+    {
+      "txId": "9038422f-6b53-4054-8301-47835e0241aa",
+      "userId": "U090B1V22BD",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 215,
+      "refId": "challenge:0259f7aa-7591-454d-9e78-1f6e64d676db",
+      "idemKey": "challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:payout:U090B1V22BD",
+      "createdAt": "2025-10-08T10:38:05.372Z"
+    },
+    {
+      "txId": "ebaabe9f-e16a-48d5-bb25-9dd3d5bd79ce",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 165,
+      "refId": "challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49",
+      "idemKey": "challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:43:14.173Z"
+    },
+    {
+      "txId": "0947a2ab-2435-4314-a36a-398d2c31a3a9",
+      "userId": "U090B1V22BD",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 210,
+      "refId": "challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49",
+      "idemKey": "challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:stake:U090B1V22BD",
+      "createdAt": "2025-10-08T10:43:14.181Z"
+    },
+    {
+      "txId": "9c59b7b3-ad8c-4d4f-a5ca-102139b4bcfa",
+      "userId": "U0828FYS2UC",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 175,
+      "refId": "challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49",
+      "idemKey": "challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:payout:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:43:15.797Z"
+    },
+    {
+      "txId": "e5c5633e-cc81-48b5-b4a2-4f57ecbe41ff",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 170,
+      "refId": "self:V09KGMTS4AG",
+      "idemKey": "self:V09KGMTS4AG:bet",
+      "createdAt": "2025-10-08T11:05:31.452Z"
+    },
+    {
+      "txId": "f8a68b82-b8fb-46af-a349-7c8965e840ed",
+      "userId": "U0828FYS2UC",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 180,
+      "refId": "self:V09KGMTS4AG",
+      "idemKey": "self:V09KGMTS4AG:payout",
+      "createdAt": "2025-10-08T11:05:31.458Z"
+    },
+    {
+      "txId": "c67bc0d5-2330-4b20-a914-b45183322b18",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -10,
+      "balanceAfter": 170,
+      "refId": "self:V09KG1TQNDQ",
+      "idemKey": "self:V09KG1TQNDQ:bet",
+      "createdAt": "2025-10-08T17:44:41.482Z"
+    },
+    {
+      "txId": "c475fb7f-d2b8-464d-a385-5408ca6eb8cf",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -1,
+      "balanceAfter": 274,
+      "refId": "self:V09KDQE6NJZ",
+      "idemKey": "self:V09KDQE6NJZ:bet",
+      "createdAt": "2025-10-08T21:00:48.108Z"
+    },
+    {
+      "txId": "01e2719a-1b5c-40e4-afa1-69206b845987",
+      "userId": "U092BGL0UUQ",
+      "type": "win",
+      "amount": 2,
+      "balanceAfter": 276,
+      "refId": "self:V09KDQE6NJZ",
+      "idemKey": "self:V09KDQE6NJZ:payout",
+      "createdAt": "2025-10-08T21:00:48.116Z"
+    },
+    {
+      "txId": "a46ae99b-c3fa-4816-9312-a8d1d2e2c8a5",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -276,
+      "balanceAfter": 0,
+      "refId": "self:V09KASX0BHR",
+      "idemKey": "self:V09KASX0BHR:bet",
+      "createdAt": "2025-10-08T21:03:29.399Z"
+    },
+    {
+      "txId": "5f99b925-cb80-4f30-b1a7-b89bd0c5c532",
+      "userId": "U092BGL0UUQ",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 5,
+      "refId": "challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04",
+      "idemKey": "challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T21:36:03.007Z"
+    },
+    {
+      "txId": "a6ed83ce-74b3-4809-a4be-b816f6449f4d",
+      "userId": "U0828FYS2UC",
+      "type": "refund",
+      "amount": 5,
+      "balanceAfter": 175,
+      "refId": "challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04",
+      "idemKey": "challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04:refund:U0828FYS2UC",
+      "createdAt": "2025-10-08T21:36:03.014Z"
+    },
+    {
+      "txId": "eef7db35-983e-4b8c-a6d8-fccf29af5104",
+      "userId": "U092BGL0UUQ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 0,
+      "refId": "challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8",
+      "idemKey": "challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T21:38:55.054Z"
+    },
+    {
+      "txId": "2470ada0-4731-4577-9753-99d6c3125208",
+      "userId": "U0828FYS2UC",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 170,
+      "refId": "challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8",
+      "idemKey": "challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T21:38:55.058Z"
+    },
+    {
+      "txId": "c0020391-45df-4f8f-8890-86eb57af5df5",
+      "userId": "U0828FYS2UC",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 180,
+      "refId": "challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8",
+      "idemKey": "challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:payout:U0828FYS2UC",
+      "createdAt": "2025-10-08T21:38:56.679Z"
+    },
+    {
+      "txId": "fdbbadf1-7ee6-4983-84af-0546fb694cbc",
+      "userId": "U0926KMCVDJ",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 135,
+      "refId": "challenge:9ae8f704-77b4-4162-88bc-6e014eec0523",
+      "idemKey": "challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T21:51:02.006Z"
+    },
+    {
+      "txId": "58b59616-6a30-4d08-82ea-8d79cd82727c",
+      "userId": "U03U380TSNT",
+      "type": "bet",
+      "amount": -5,
+      "balanceAfter": 185,
+      "refId": "challenge:9ae8f704-77b4-4162-88bc-6e014eec0523",
+      "idemKey": "challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:stake:U03U380TSNT",
+      "createdAt": "2025-10-08T21:51:02.012Z"
+    },
+    {
+      "txId": "3de0b0e7-6f1d-4e17-81c3-e691271477b2",
+      "userId": "U0926KMCVDJ",
+      "type": "win",
+      "amount": 10,
+      "balanceAfter": 145,
+      "refId": "challenge:9ae8f704-77b4-4162-88bc-6e014eec0523",
+      "idemKey": "challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T21:51:03.568Z"
     }
   ],
   "games": {
@@ -421,6 +1688,621 @@
       "state": "accepted",
       "rootTs": "1759814999.692929",
       "acceptedBy": "U090B1V22BD"
+    },
+    "e375bf0e-0981-411f-a9b1-59012118d241": {
+      "id": "e375bf0e-0981-411f-a9b1-59012118d241",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T22:25:19.722Z",
+      "updatedAt": "2025-10-07T22:25:23.213Z",
+      "state": "accepted",
+      "rootTs": "1759875919.801639",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "0ee9e07a-55e7-45b2-9ab5-149ebf5504ac": {
+      "id": "0ee9e07a-55e7-45b2-9ab5-149ebf5504ac",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T22:26:04.606Z",
+      "updatedAt": "2025-10-07T22:26:07.630Z",
+      "state": "accepted",
+      "rootTs": "1759875964.677459",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "ed906d2c-767a-48ed-90df-26547d7b12a8": {
+      "id": "ed906d2c-767a-48ed-90df-26547d7b12a8",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:32:07.841Z",
+      "updatedAt": "2025-10-07T23:32:10.323Z",
+      "state": "accepted",
+      "rootTs": "1759879928.039769",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "184968e0-988e-44cd-a4ce-10cc81a0cfab": {
+      "id": "184968e0-988e-44cd-a4ce-10cc81a0cfab",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:32:45.858Z",
+      "updatedAt": "2025-10-07T23:33:22.651Z",
+      "state": "accepted",
+      "rootTs": "1759879966.034679",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "1942a314-4c52-43f5-be0d-eb73a1e0a10f": {
+      "id": "1942a314-4c52-43f5-be0d-eb73a1e0a10f",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:33:58.102Z",
+      "updatedAt": "2025-10-07T23:36:05.071Z",
+      "state": "declined",
+      "rootTs": "1759880038.287559"
+    },
+    "8cabe9df-a8ac-4fbb-802f-984dce5e6317": {
+      "id": "8cabe9df-a8ac-4fbb-802f-984dce5e6317",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:37:12.263Z",
+      "updatedAt": "2025-10-07T23:37:15.089Z",
+      "state": "declined",
+      "rootTs": "1759880232.392809"
+    },
+    "760e09cc-0d67-4913-94e2-5681142eaeae": {
+      "id": "760e09cc-0d67-4913-94e2-5681142eaeae",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:37:34.882Z",
+      "updatedAt": "2025-10-07T23:38:09.283Z",
+      "state": "declined",
+      "rootTs": "1759880255.015929",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "825ae5d7-4145-454a-bc70-633bca07dd62": {
+      "id": "825ae5d7-4145-454a-bc70-633bca07dd62",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:38:56.520Z",
+      "updatedAt": "2025-10-07T23:40:53.760Z",
+      "state": "declined",
+      "rootTs": "1759880336.653389"
+    },
+    "27e3748b-445a-4bd2-9a09-c352b8941657": {
+      "id": "27e3748b-445a-4bd2-9a09-c352b8941657",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:39:12.318Z",
+      "updatedAt": "2025-10-07T23:41:45.789Z",
+      "state": "declined",
+      "rootTs": "1759880352.451629",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "8ee7aa7a-97d3-4665-a93b-1ec56c93c67d": {
+      "id": "8ee7aa7a-97d3-4665-a93b-1ec56c93c67d",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:43:23.949Z",
+      "updatedAt": "2025-10-07T23:43:29.958Z",
+      "state": "declined",
+      "rootTs": "1759880604.079629"
+    },
+    "9e2ca925-34fc-48a5-9064-d749e3300aee": {
+      "id": "9e2ca925-34fc-48a5-9064-d749e3300aee",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:43:41.231Z",
+      "updatedAt": "2025-10-07T23:43:52.544Z",
+      "state": "declined",
+      "rootTs": "1759880621.357669",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "3dff71f2-52b1-4045-b791-e1430555c22b": {
+      "id": "3dff71f2-52b1-4045-b791-e1430555c22b",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:43:41.308Z",
+      "updatedAt": "2025-10-07T23:44:01.082Z",
+      "state": "declined",
+      "rootTs": "1759880621.489289",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "462db4a7-43e0-41bb-9dce-36f8dabe8c53": {
+      "id": "462db4a7-43e0-41bb-9dce-36f8dabe8c53",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:44:59.968Z",
+      "updatedAt": "2025-10-07T23:45:04.883Z",
+      "state": "accepted",
+      "rootTs": "1759880700.193419",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "22685fd8-01fe-48a0-a0a0-dd79c8043d0c": {
+      "id": "22685fd8-01fe-48a0-a0a0-dd79c8043d0c",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:45:00.038Z",
+      "updatedAt": "2025-10-07T23:45:14.159Z",
+      "state": "declined",
+      "rootTs": "1759880700.316139",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "22222103-f176-4fb1-a100-55275701655f": {
+      "id": "22222103-f176-4fb1-a100-55275701655f",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:49:58.310Z",
+      "updatedAt": "2025-10-07T23:49:59.983Z",
+      "state": "accepted",
+      "rootTs": "1759880998.439909",
+      "acceptedBy": "U0828FYS2UC"
+    },
+    "0fdb58a8-b419-49af-9b64-424e11b71ae6": {
+      "id": "0fdb58a8-b419-49af-9b64-424e11b71ae6",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:50:10.794Z",
+      "updatedAt": "2025-10-07T23:50:12.299Z",
+      "state": "accepted",
+      "rootTs": "1759881010.930659",
+      "acceptedBy": "U0828FYS2UC"
+    },
+    "c0582d0a-7e32-4cd8-a0af-84810cbeaaeb": {
+      "id": "c0582d0a-7e32-4cd8-a0af-84810cbeaaeb",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0947SL6AKB",
+      "opponent": {
+        "kind": "user",
+        "id": "U0947SL6AKB"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-07T23:52:09.954Z",
+      "updatedAt": "2025-10-07T23:52:15.685Z",
+      "state": "accepted",
+      "rootTs": "1759881130.152629",
+      "acceptedBy": "U0947SL6AKB"
+    },
+    "6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0": {
+      "id": "6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0926KMCVDJ",
+      "opponent": {
+        "kind": "user",
+        "id": "U0926KMCVDJ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:02:21.038Z",
+      "updatedAt": "2025-10-08T00:03:35.158Z",
+      "state": "declined",
+      "rootTs": "1759881741.216109",
+      "acceptedBy": "U0926KMCVDJ"
+    },
+    "f68dfc25-bdaa-441e-88b3-7cb509ed9c7e": {
+      "id": "f68dfc25-bdaa-441e-88b3-7cb509ed9c7e",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0926KMCVDJ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:04:02.033Z",
+      "updatedAt": "2025-10-08T00:05:19.764Z",
+      "state": "declined",
+      "rootTs": "1759881842.184759",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f": {
+      "id": "6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0926KMCVDJ",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:04:46.214Z",
+      "updatedAt": "2025-10-08T00:05:25.446Z",
+      "state": "declined",
+      "rootTs": "1759881886.409179",
+      "acceptedBy": "U0828FYS2UC"
+    },
+    "0943ce04-b966-41cd-8897-471492b20518": {
+      "id": "0943ce04-b966-41cd-8897-471492b20518",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0926KMCVDJ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:06:03.007Z",
+      "updatedAt": "2025-10-08T00:07:06.706Z",
+      "state": "declined",
+      "rootTs": "1759881963.276439",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "5e5fd5b8-36de-47ac-8478-63952e57ea79": {
+      "id": "5e5fd5b8-36de-47ac-8478-63952e57ea79",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U09GWV19TN1",
+      "opponent": {
+        "kind": "user",
+        "id": "U09GWV19TN1"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:31:16.929Z",
+      "updatedAt": "2025-10-08T00:32:17.660Z",
+      "state": "declined",
+      "rootTs": "1759883477.184409",
+      "acceptedBy": "U09GWV19TN1"
+    },
+    "275b3666-160f-4c33-8f1c-d814b5a6ef08": {
+      "id": "275b3666-160f-4c33-8f1c-d814b5a6ef08",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U09GWV19TN1",
+      "opponent": {
+        "kind": "user",
+        "id": "U09GWV19TN1"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:33:22.661Z",
+      "updatedAt": "2025-10-08T00:33:26.192Z",
+      "state": "accepted",
+      "rootTs": "1759883602.891339",
+      "acceptedBy": "U09GWV19TN1"
+    },
+    "aac5218f-3c3e-4cb5-b07a-753a8181cfee": {
+      "id": "aac5218f-3c3e-4cb5-b07a-753a8181cfee",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U09GWV19TN1",
+      "opponent": {
+        "kind": "user",
+        "id": "U09GWV19TN1"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:34:09.960Z",
+      "updatedAt": "2025-10-08T00:34:12.335Z",
+      "state": "accepted",
+      "rootTs": "1759883650.110289",
+      "acceptedBy": "U09GWV19TN1"
+    },
+    "4edec785-ad14-4e9c-9cc8-7ac87e0b5334": {
+      "id": "4edec785-ad14-4e9c-9cc8-7ac87e0b5334",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0947SL6AKB",
+      "opponent": {
+        "kind": "user",
+        "id": "U0947SL6AKB"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:37:31.870Z",
+      "updatedAt": "2025-10-08T00:37:38.721Z",
+      "state": "declined",
+      "rootTs": "1759883852.035189",
+      "acceptedBy": "U0947SL6AKB"
+    },
+    "78ee96dc-6bee-4f92-999e-17624f2e1216": {
+      "id": "78ee96dc-6bee-4f92-999e-17624f2e1216",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0947SL6AKB",
+      "opponent": {
+        "kind": "user",
+        "id": "U0947SL6AKB"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:38:32.952Z",
+      "updatedAt": "2025-10-08T00:38:36.088Z",
+      "state": "accepted",
+      "rootTs": "1759883913.116799",
+      "acceptedBy": "U0947SL6AKB"
+    },
+    "004225d6-2817-42e6-b4e9-94e71100a3d8": {
+      "id": "004225d6-2817-42e6-b4e9-94e71100a3d8",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0947SL6AKB",
+      "opponent": {
+        "kind": "user",
+        "id": "U0947SL6AKB"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:38:59.286Z",
+      "updatedAt": "2025-10-08T00:39:03.329Z",
+      "state": "accepted",
+      "rootTs": "1759883939.436729",
+      "acceptedBy": "U0947SL6AKB"
+    },
+    "640e61ce-78bf-4d56-82aa-a43c45af1fbf": {
+      "id": "640e61ce-78bf-4d56-82aa-a43c45af1fbf",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U092BGL0UUQ"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T00:47:11.990Z",
+      "updatedAt": "2025-10-08T00:47:17.221Z",
+      "state": "declined",
+      "rootTs": "1759884432.156589",
+      "acceptedBy": "U092BGL0UUQ"
+    },
+    "845004d8-6e1f-43ff-9f74-7e68b9a7d2df": {
+      "id": "845004d8-6e1f-43ff-9f74-7e68b9a7d2df",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T10:14:29.163Z",
+      "updatedAt": "2025-10-08T10:14:39.059Z",
+      "state": "declined",
+      "rootTs": "1759918469.280039",
+      "acceptedBy": "U0828FYS2UC"
+    },
+    "947d2bb6-ebdf-4fc5-87b5-fafee37402b5": {
+      "id": "947d2bb6-ebdf-4fc5-87b5-fafee37402b5",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T10:18:14.863Z",
+      "updatedAt": "2025-10-08T10:18:14.963Z",
+      "state": "pending",
+      "rootTs": "1759918694.975899"
+    },
+    "760c84a3-5bb9-44cb-9e40-8e86b5b3d486": {
+      "id": "760c84a3-5bb9-44cb-9e40-8e86b5b3d486",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U090B1V22BD"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T10:34:12.746Z",
+      "updatedAt": "2025-10-08T10:34:17.982Z",
+      "state": "resolved",
+      "rootTs": "1759919653.030489",
+      "acceptedBy": "U090B1V22BD",
+      "resolvedAt": "2025-10-08T10:34:19.656Z",
+      "winnerId": "U090B1V22BD",
+      "outcome": {
+        "game": "coin_flip",
+        "coinSide": "Tails"
+      }
+    },
+    "0259f7aa-7591-454d-9e78-1f6e64d676db": {
+      "id": "0259f7aa-7591-454d-9e78-1f6e64d676db",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U090B1V22BD",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T10:38:01.567Z",
+      "updatedAt": "2025-10-08T10:38:03.793Z",
+      "state": "resolved",
+      "rootTs": "1759919881.683679",
+      "acceptedBy": "U0828FYS2UC",
+      "resolvedAt": "2025-10-08T10:38:05.589Z",
+      "winnerId": "U090B1V22BD",
+      "outcome": {
+        "game": "coin_flip",
+        "coinSide": "Tails"
+      }
+    },
+    "2c40554a-b61e-44c5-a354-1e76bf5e9c49": {
+      "id": "2c40554a-b61e-44c5-a354-1e76bf5e9c49",
+      "channel": "C09JKUGGTMH",
+      "challengerId": "U0828FYS2UC",
+      "opponent": {
+        "kind": "user",
+        "id": "U090B1V22BD"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T10:43:07.305Z",
+      "updatedAt": "2025-10-08T10:43:14.186Z",
+      "state": "resolved",
+      "rootTs": "1759920187.469859",
+      "acceptedBy": "U090B1V22BD",
+      "resolvedAt": "2025-10-08T10:43:16.031Z",
+      "winnerId": "U0828FYS2UC",
+      "outcome": {
+        "game": "coin_flip",
+        "coinSide": "Tails"
+      }
+    },
+    "a77e96fb-9c79-4e80-a1de-450299669a1e": {
+      "id": "a77e96fb-9c79-4e80-a1de-450299669a1e",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U09KLPN29LY"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T21:04:19.697Z",
+      "updatedAt": "2025-10-08T21:04:19.914Z",
+      "state": "pending",
+      "rootTs": "1759957459.891949"
+    },
+    "8554f6bc-322d-4dcd-94c1-d5043d553f04": {
+      "id": "8554f6bc-322d-4dcd-94c1-d5043d553f04",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T21:04:53.448Z",
+      "updatedAt": "2025-10-08T21:36:03.001Z",
+      "state": "declined",
+      "rootTs": "1759957493.588229"
+    },
+    "46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8": {
+      "id": "46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U092BGL0UUQ",
+      "opponent": {
+        "kind": "user",
+        "id": "U0828FYS2UC"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T21:38:05.882Z",
+      "updatedAt": "2025-10-08T21:38:55.062Z",
+      "state": "resolved",
+      "rootTs": "1759959486.004829",
+      "acceptedBy": "U0828FYS2UC",
+      "resolvedAt": "2025-10-08T21:38:56.915Z",
+      "winnerId": "U0828FYS2UC",
+      "outcome": {
+        "game": "coin_flip",
+        "coinSide": "Tails"
+      }
+    },
+    "9ae8f704-77b4-4162-88bc-6e014eec0523": {
+      "id": "9ae8f704-77b4-4162-88bc-6e014eec0523",
+      "channel": "C08SKC6P85V",
+      "challengerId": "U0926KMCVDJ",
+      "opponent": {
+        "kind": "user",
+        "id": "U03U380TSNT"
+      },
+      "game": "coin_flip",
+      "stake": 5,
+      "createdAt": "2025-10-08T21:50:59.137Z",
+      "updatedAt": "2025-10-08T21:51:02.014Z",
+      "state": "resolved",
+      "rootTs": "1759960259.283229",
+      "acceptedBy": "U03U380TSNT",
+      "resolvedAt": "2025-10-08T21:51:03.814Z",
+      "winnerId": "U0926KMCVDJ",
+      "outcome": {
+        "game": "coin_flip",
+        "coinSide": "Heads"
+      }
     }
   },
   "announcements": {
@@ -503,6 +2385,438 @@
     "tx:U0828FYS2UC:challenge:f87f2d3c-c32f-47ec-bcf6-b02d5d2b0c31:payout:U0828FYS2UC": {
       "key": "tx:U0828FYS2UC:challenge:f87f2d3c-c32f-47ec-bcf6-b02d5d2b0c31:payout:U0828FYS2UC",
       "createdAt": "2025-10-07T05:30:16.356Z"
+    },
+    "tx:U079XM9PARJ:daily:null": {
+      "key": "tx:U079XM9PARJ:daily:null",
+      "createdAt": "2025-10-07T22:23:33.828Z"
+    },
+    "tx:U092BGL0UUQ:daily:null": {
+      "key": "tx:U092BGL0UUQ:daily:null",
+      "createdAt": "2025-10-07T22:23:43.577Z"
+    },
+    "tx:U08U68WA0CR:daily:null": {
+      "key": "tx:U08U68WA0CR:daily:null",
+      "createdAt": "2025-10-07T22:23:44.689Z"
+    },
+    "tx:U08S635DBUN:daily:null": {
+      "key": "tx:U08S635DBUN:daily:null",
+      "createdAt": "2025-10-07T22:24:01.412Z"
+    },
+    "tx:U092BGL0UUQ:challenge:e375bf0e-0981-411f-a9b1-59012118d241:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:e375bf0e-0981-411f-a9b1-59012118d241:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:25:23.207Z"
+    },
+    "tx:U092BGL0UUQ:challenge:e375bf0e-0981-411f-a9b1-59012118d241:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:e375bf0e-0981-411f-a9b1-59012118d241:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:25:24.664Z"
+    },
+    "tx:U092BGL0UUQ:challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:26:07.625Z"
+    },
+    "tx:U092BGL0UUQ:challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:0ee9e07a-55e7-45b2-9ab5-149ebf5504ac:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T22:26:09.127Z"
+    },
+    "tx:U0828FYS2UC:daily:2025-10-07": {
+      "key": "tx:U0828FYS2UC:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.138Z"
+    },
+    "tx:U03U380TSNT:daily:2025-10-07": {
+      "key": "tx:U03U380TSNT:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.143Z"
+    },
+    "tx:U091JJ2JF8E:daily:2025-10-07": {
+      "key": "tx:U091JJ2JF8E:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.147Z"
+    },
+    "tx:U0947SL6AKB:daily:2025-10-07": {
+      "key": "tx:U0947SL6AKB:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.150Z"
+    },
+    "tx:U090B1V22BD:daily:2025-10-07": {
+      "key": "tx:U090B1V22BD:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.155Z"
+    },
+    "tx:U079XM9PARJ:daily:2025-10-07": {
+      "key": "tx:U079XM9PARJ:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.159Z"
+    },
+    "tx:U092BGL0UUQ:daily:2025-10-07": {
+      "key": "tx:U092BGL0UUQ:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.165Z"
+    },
+    "tx:U08U68WA0CR:daily:2025-10-07": {
+      "key": "tx:U08U68WA0CR:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.170Z"
+    },
+    "tx:U08S635DBUN:daily:2025-10-07": {
+      "key": "tx:U08S635DBUN:daily:2025-10-07",
+      "createdAt": "2025-10-07T23:28:16.175Z"
+    },
+    "tx:U092BGL0UUQ:challenge:ed906d2c-767a-48ed-90df-26547d7b12a8:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:ed906d2c-767a-48ed-90df-26547d7b12a8:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:32:10.318Z"
+    },
+    "tx:U092BGL0UUQ:challenge:ed906d2c-767a-48ed-90df-26547d7b12a8:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:ed906d2c-767a-48ed-90df-26547d7b12a8:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:32:11.945Z"
+    },
+    "tx:U0828FYS2UC:challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:stake:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:33:22.640Z"
+    },
+    "tx:U092BGL0UUQ:challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:33:22.647Z"
+    },
+    "tx:U092BGL0UUQ:challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:184968e0-988e-44cd-a4ce-10cc81a0cfab:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:33:24.358Z"
+    },
+    "tx:U092BGL0UUQ:challenge:1942a314-4c52-43f5-be0d-eb73a1e0a10f:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:1942a314-4c52-43f5-be0d-eb73a1e0a10f:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:36:05.075Z"
+    },
+    "tx:U092BGL0UUQ:challenge:8cabe9df-a8ac-4fbb-802f-984dce5e6317:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:8cabe9df-a8ac-4fbb-802f-984dce5e6317:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:15.092Z"
+    },
+    "tx:U092BGL0UUQ:challenge:760e09cc-0d67-4913-94e2-5681142eaeae:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:760e09cc-0d67-4913-94e2-5681142eaeae:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:45.350Z"
+    },
+    "tx:U092BGL0UUQ:challenge:760e09cc-0d67-4913-94e2-5681142eaeae:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:760e09cc-0d67-4913-94e2-5681142eaeae:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:46.855Z"
+    },
+    "tx:U092BGL0UUQ:challenge:760e09cc-0d67-4913-94e2-5681142eaeae:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:760e09cc-0d67-4913-94e2-5681142eaeae:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:37:52.379Z"
+    },
+    "tx:U092BGL0UUQ:challenge:825ae5d7-4145-454a-bc70-633bca07dd62:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:825ae5d7-4145-454a-bc70-633bca07dd62:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:38:57.705Z"
+    },
+    "tx:U092BGL0UUQ:challenge:27e3748b-445a-4bd2-9a09-c352b8941657:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:27e3748b-445a-4bd2-9a09-c352b8941657:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:39:14.016Z"
+    },
+    "tx:U092BGL0UUQ:challenge:27e3748b-445a-4bd2-9a09-c352b8941657:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:27e3748b-445a-4bd2-9a09-c352b8941657:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:39:14.462Z"
+    },
+    "tx:U092BGL0UUQ:challenge:27e3748b-445a-4bd2-9a09-c352b8941657:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:27e3748b-445a-4bd2-9a09-c352b8941657:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:39:15.471Z"
+    },
+    "tx:U092BGL0UUQ:challenge:8ee7aa7a-97d3-4665-a93b-1ec56c93c67d:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:8ee7aa7a-97d3-4665-a93b-1ec56c93c67d:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:43:29.963Z"
+    },
+    "tx:U092BGL0UUQ:challenge:9e2ca925-34fc-48a5-9064-d749e3300aee:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:9e2ca925-34fc-48a5-9064-d749e3300aee:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:43:52.436Z"
+    },
+    "tx:U092BGL0UUQ:challenge:9e2ca925-34fc-48a5-9064-d749e3300aee:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:9e2ca925-34fc-48a5-9064-d749e3300aee:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:43:52.548Z"
+    },
+    "tx:U092BGL0UUQ:challenge:3dff71f2-52b1-4045-b791-e1430555c22b:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:3dff71f2-52b1-4045-b791-e1430555c22b:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:44:00.966Z"
+    },
+    "tx:U092BGL0UUQ:challenge:3dff71f2-52b1-4045-b791-e1430555c22b:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:3dff71f2-52b1-4045-b791-e1430555c22b:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:44:01.085Z"
+    },
+    "tx:U092BGL0UUQ:challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:04.875Z"
+    },
+    "tx:U092BGL0UUQ:challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:462db4a7-43e0-41bb-9dce-36f8dabe8c53:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:06.569Z"
+    },
+    "tx:U092BGL0UUQ:challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:13.907Z"
+    },
+    "tx:U092BGL0UUQ:challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:22685fd8-01fe-48a0-a0a0-dd79c8043d0c:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-07T23:45:14.163Z"
+    },
+    "tx:U0828FYS2UC:challenge:22222103-f176-4fb1-a100-55275701655f:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:22222103-f176-4fb1-a100-55275701655f:stake:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:49:59.979Z"
+    },
+    "tx:U0828FYS2UC:challenge:22222103-f176-4fb1-a100-55275701655f:payout:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:22222103-f176-4fb1-a100-55275701655f:payout:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:50:01.751Z"
+    },
+    "tx:U0828FYS2UC:challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6:stake:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:50:12.294Z"
+    },
+    "tx:U0828FYS2UC:challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6:payout:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:0fdb58a8-b419-49af-9b64-424e11b71ae6:payout:U0828FYS2UC",
+      "createdAt": "2025-10-07T23:50:13.753Z"
+    },
+    "tx:U0947SL6AKB:challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb:stake:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb:stake:U0947SL6AKB",
+      "createdAt": "2025-10-07T23:52:15.678Z"
+    },
+    "tx:U0947SL6AKB:challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb:payout:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:c0582d0a-7e32-4cd8-a0af-84810cbeaaeb:payout:U0947SL6AKB",
+      "createdAt": "2025-10-07T23:52:17.213Z"
+    },
+    "tx:U0926KMCVDJ:daily:2025-10-07": {
+      "key": "tx:U0926KMCVDJ:daily:2025-10-07",
+      "createdAt": "2025-10-08T00:02:18.907Z"
+    },
+    "tx:U0926KMCVDJ:challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:stake:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:02:24.687Z"
+    },
+    "tx:U0926KMCVDJ:challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:payout:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:02:26.180Z"
+    },
+    "tx:U0926KMCVDJ:challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:refund:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:6cbd09a5-dcd4-49a9-8c29-fd3fc6a4c1e0:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:02:40.744Z"
+    },
+    "tx:U0926KMCVDJ:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:stake:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:04:48.884Z"
+    },
+    "tx:U0828FYS2UC:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T00:04:48.888Z"
+    },
+    "tx:U0926KMCVDJ:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:payout:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:04:50.412Z"
+    },
+    "tx:U0926KMCVDJ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:stake:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:10.236Z"
+    },
+    "tx:U092BGL0UUQ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:05:10.241Z"
+    },
+    "tx:U0926KMCVDJ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:payout:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:11.806Z"
+    },
+    "tx:U0926KMCVDJ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:refund:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:19.769Z"
+    },
+    "tx:U092BGL0UUQ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:f68dfc25-bdaa-441e-88b3-7cb509ed9c7e:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:05:19.775Z"
+    },
+    "tx:U0926KMCVDJ:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:refund:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:05:21.003Z"
+    },
+    "tx:U0828FYS2UC:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:refund:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:6a41c5a9-86f9-4d00-b29c-ff5ddc032a9f:refund:U0828FYS2UC",
+      "createdAt": "2025-10-08T00:05:21.008Z"
+    },
+    "tx:U0926KMCVDJ:challenge:0943ce04-b966-41cd-8897-471492b20518:stake:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:0943ce04-b966-41cd-8897-471492b20518:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:06:05.806Z"
+    },
+    "tx:U092BGL0UUQ:challenge:0943ce04-b966-41cd-8897-471492b20518:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:0943ce04-b966-41cd-8897-471492b20518:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:06:05.815Z"
+    },
+    "tx:U0926KMCVDJ:challenge:0943ce04-b966-41cd-8897-471492b20518:payout:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:0943ce04-b966-41cd-8897-471492b20518:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:06:07.410Z"
+    },
+    "tx:U0926KMCVDJ:challenge:0943ce04-b966-41cd-8897-471492b20518:refund:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:0943ce04-b966-41cd-8897-471492b20518:refund:U0926KMCVDJ",
+      "createdAt": "2025-10-08T00:06:13.480Z"
+    },
+    "tx:U092BGL0UUQ:challenge:0943ce04-b966-41cd-8897-471492b20518:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:0943ce04-b966-41cd-8897-471492b20518:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:06:13.486Z"
+    },
+    "tx:U09GWV19TN1:challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:stake:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:stake:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:31:20.978Z"
+    },
+    "tx:U09GWV19TN1:challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:payout:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:payout:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:31:22.399Z"
+    },
+    "tx:U09GWV19TN1:challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:refund:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:5e5fd5b8-36de-47ac-8478-63952e57ea79:refund:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:32:17.664Z"
+    },
+    "tx:U09GWV19TN1:challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08:stake:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08:stake:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:33:26.185Z"
+    },
+    "tx:U09GWV19TN1:challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08:payout:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:275b3666-160f-4c33-8f1c-d814b5a6ef08:payout:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:33:27.662Z"
+    },
+    "tx:U09GWV19TN1:challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee:stake:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee:stake:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:34:12.328Z"
+    },
+    "tx:U09GWV19TN1:challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee:payout:U09GWV19TN1": {
+      "key": "tx:U09GWV19TN1:challenge:aac5218f-3c3e-4cb5-b07a-753a8181cfee:payout:U09GWV19TN1",
+      "createdAt": "2025-10-08T00:34:13.765Z"
+    },
+    "tx:U0947SL6AKB:challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:stake:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:stake:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:37:33.894Z"
+    },
+    "tx:U0947SL6AKB:challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:payout:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:payout:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:37:35.392Z"
+    },
+    "tx:U0947SL6AKB:challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:refund:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:4edec785-ad14-4e9c-9cc8-7ac87e0b5334:refund:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:37:38.725Z"
+    },
+    "tx:U0947SL6AKB:challenge:78ee96dc-6bee-4f92-999e-17624f2e1216:stake:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:78ee96dc-6bee-4f92-999e-17624f2e1216:stake:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:38:36.079Z"
+    },
+    "tx:U0947SL6AKB:challenge:78ee96dc-6bee-4f92-999e-17624f2e1216:payout:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:78ee96dc-6bee-4f92-999e-17624f2e1216:payout:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:38:37.604Z"
+    },
+    "tx:U0947SL6AKB:challenge:004225d6-2817-42e6-b4e9-94e71100a3d8:stake:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:004225d6-2817-42e6-b4e9-94e71100a3d8:stake:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:39:03.323Z"
+    },
+    "tx:U0947SL6AKB:challenge:004225d6-2817-42e6-b4e9-94e71100a3d8:payout:U0947SL6AKB": {
+      "key": "tx:U0947SL6AKB:challenge:004225d6-2817-42e6-b4e9-94e71100a3d8:payout:U0947SL6AKB",
+      "createdAt": "2025-10-08T00:39:04.872Z"
+    },
+    "tx:U092BGL0UUQ:challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:47:14.109Z"
+    },
+    "tx:U092BGL0UUQ:challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:payout:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:payout:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:47:15.568Z"
+    },
+    "tx:U092BGL0UUQ:challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:640e61ce-78bf-4d56-82aa-a43c45af1fbf:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T00:47:17.224Z"
+    },
+    "tx:U0828FYS2UC:challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:14:31.706Z"
+    },
+    "tx:U0828FYS2UC:challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:payout:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:payout:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:14:33.595Z"
+    },
+    "tx:U0828FYS2UC:challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:refund:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:845004d8-6e1f-43ff-9f74-7e68b9a7d2df:refund:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:14:35.797Z"
+    },
+    "tx:U0828FYS2UC:challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:34:17.967Z"
+    },
+    "tx:U090B1V22BD:challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:stake:U090B1V22BD": {
+      "key": "tx:U090B1V22BD:challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:stake:U090B1V22BD",
+      "createdAt": "2025-10-08T10:34:17.974Z"
+    },
+    "tx:U090B1V22BD:challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:payout:U090B1V22BD": {
+      "key": "tx:U090B1V22BD:challenge:760c84a3-5bb9-44cb-9e40-8e86b5b3d486:payout:U090B1V22BD",
+      "createdAt": "2025-10-08T10:34:19.431Z"
+    },
+    "tx:U090B1V22BD:challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:stake:U090B1V22BD": {
+      "key": "tx:U090B1V22BD:challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:stake:U090B1V22BD",
+      "createdAt": "2025-10-08T10:38:03.780Z"
+    },
+    "tx:U0828FYS2UC:challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:38:03.786Z"
+    },
+    "tx:U090B1V22BD:challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:payout:U090B1V22BD": {
+      "key": "tx:U090B1V22BD:challenge:0259f7aa-7591-454d-9e78-1f6e64d676db:payout:U090B1V22BD",
+      "createdAt": "2025-10-08T10:38:05.369Z"
+    },
+    "tx:U0828FYS2UC:challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:43:14.169Z"
+    },
+    "tx:U090B1V22BD:challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:stake:U090B1V22BD": {
+      "key": "tx:U090B1V22BD:challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:stake:U090B1V22BD",
+      "createdAt": "2025-10-08T10:43:14.177Z"
+    },
+    "tx:U0828FYS2UC:challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:payout:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:2c40554a-b61e-44c5-a354-1e76bf5e9c49:payout:U0828FYS2UC",
+      "createdAt": "2025-10-08T10:43:15.794Z"
+    },
+    "tx:U0828FYS2UC:self:V09KGMTS4AG:bet": {
+      "key": "tx:U0828FYS2UC:self:V09KGMTS4AG:bet",
+      "createdAt": "2025-10-08T11:05:31.448Z"
+    },
+    "tx:U0828FYS2UC:self:V09KGMTS4AG:payout": {
+      "key": "tx:U0828FYS2UC:self:V09KGMTS4AG:payout",
+      "createdAt": "2025-10-08T11:05:31.455Z"
+    },
+    "tx:U0828FYS2UC:self:V09KG1TQNDQ:bet": {
+      "key": "tx:U0828FYS2UC:self:V09KG1TQNDQ:bet",
+      "createdAt": "2025-10-08T17:44:41.479Z"
+    },
+    "tx:U092BGL0UUQ:self:V09KDQE6NJZ:bet": {
+      "key": "tx:U092BGL0UUQ:self:V09KDQE6NJZ:bet",
+      "createdAt": "2025-10-08T21:00:48.104Z"
+    },
+    "tx:U092BGL0UUQ:self:V09KDQE6NJZ:payout": {
+      "key": "tx:U092BGL0UUQ:self:V09KDQE6NJZ:payout",
+      "createdAt": "2025-10-08T21:00:48.112Z"
+    },
+    "tx:U092BGL0UUQ:self:V09KASX0BHR:bet": {
+      "key": "tx:U092BGL0UUQ:self:V09KASX0BHR:bet",
+      "createdAt": "2025-10-08T21:03:29.395Z"
+    },
+    "tx:U092BGL0UUQ:challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04:refund:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04:refund:U092BGL0UUQ",
+      "createdAt": "2025-10-08T21:36:03.005Z"
+    },
+    "tx:U0828FYS2UC:challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04:refund:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:8554f6bc-322d-4dcd-94c1-d5043d553f04:refund:U0828FYS2UC",
+      "createdAt": "2025-10-08T21:36:03.011Z"
+    },
+    "tx:U092BGL0UUQ:challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:stake:U092BGL0UUQ": {
+      "key": "tx:U092BGL0UUQ:challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:stake:U092BGL0UUQ",
+      "createdAt": "2025-10-08T21:38:55.051Z"
+    },
+    "tx:U0828FYS2UC:challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:stake:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:stake:U0828FYS2UC",
+      "createdAt": "2025-10-08T21:38:55.056Z"
+    },
+    "tx:U0828FYS2UC:challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:payout:U0828FYS2UC": {
+      "key": "tx:U0828FYS2UC:challenge:46ab166d-b2c9-4a2c-8f12-96e20b2bd9f8:payout:U0828FYS2UC",
+      "createdAt": "2025-10-08T21:38:56.677Z"
+    },
+    "tx:U0926KMCVDJ:challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:stake:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:stake:U0926KMCVDJ",
+      "createdAt": "2025-10-08T21:51:02.003Z"
+    },
+    "tx:U03U380TSNT:challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:stake:U03U380TSNT": {
+      "key": "tx:U03U380TSNT:challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:stake:U03U380TSNT",
+      "createdAt": "2025-10-08T21:51:02.009Z"
+    },
+    "tx:U0926KMCVDJ:challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:payout:U0926KMCVDJ": {
+      "key": "tx:U0926KMCVDJ:challenge:9ae8f704-77b4-4162-88bc-6e014eec0523:payout:U0926KMCVDJ",
+      "createdAt": "2025-10-08T21:51:03.562Z"
     }
   },
   "featureFlags": {
@@ -516,5 +2830,5 @@
     "aiDebate": true
   },
   "createdAt": "2025-10-05T18:28:11.113Z",
-  "updatedAt": "2025-10-07T05:30:16.618Z"
+  "updatedAt": "2025-10-12T01:10:25.907Z"
 }

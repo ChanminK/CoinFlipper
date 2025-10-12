@@ -26,3 +26,6 @@ async function resolveUserIdByHandle(client: any, token: string): Promise<string
     
     return null;
 }
+
+https://security.hackclub.com/submit
+checky one day

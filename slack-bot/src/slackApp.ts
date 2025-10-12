@@ -1,4 +1,6 @@
 import { App } from "@slack/bolt";
+import fs from "node:fs/promises"
+import { CONFIG } from "./config";
 import { store } from "./storage/fileStore";
 import { logger } from "./logger";
 import { getBalance } from "./economy";
@@ -6,8 +8,10 @@ import { createChallengeRecord, setChallengeRootMessage, acceptChallengeAndLockS
 import { canStartBet } from "./economy";  
 import { addTransaction } from "./ledger";
 import { LogLevel } from "@slack/bolt";
+import { scheduleJobs } from "./jobs";
+import type { CodedError } from "@slack/bolt";
 
-const COOLDOWN_MS = 1_000;
+const COOLDOWN_MS = 1_500;
 const cooldown = new Map<string, number>()
 
 function isPlay(userId: string): boolean {
@@ -153,11 +157,21 @@ async function runCoinFlip(client: any, challengeId: string) {
         });
         }
 
+        await store.update(s => {
+            const g = (s.games as any)[rec.id];
+            if (g) {
+                g.state = "resolved";
+                g.resolvedAt = new Date().toISOString();
+                g.winnerId = winnerId;
+                g.outcome = { game: rec.game, coinSide };
+            }
+        });
+
         await maybeAwardSecretCoin(client, winnerId);
         await maybeAwardSecretCoin(client, loserId);
 
-        touchStreak(winnerId);
-        touchStreak(loserId);
+        await applyWinStreak(winnerId);
+        await applyLossStreak(loserId);
 
     } catch (e: any) {
         try {
@@ -277,6 +291,26 @@ function touchStreak(userId: string) {
     });
 }
 
+function applyWinStreak(userId: string): Promise<void> {
+  return store.update(s => {
+    const u = s.users[userId];
+    if (!u) return;
+    u.stats.currentStreak = (u.stats.currentStreak || 0) + 1;
+    u.stats.longestStreak = Math.max(u.stats.longestStreak || 0, u.stats.currentStreak);
+    u.updatedAt = new Date().toISOString();
+  });
+}
+
+function applyLossStreak(userId: string): Promise<void> {
+  return store.update(s => {
+    const u = s.users[userId];
+    if (!u) return;
+    u.stats.currentStreak = 0;              
+    u.updatedAt = new Date().toISOString();
+  });
+}
+
+
 export function buildSlackApp() {
     const app = new App({
         token: process.env.SLACK_BOT_TOKEN,
@@ -284,6 +318,19 @@ export function buildSlackApp() {
         appToken: process.env.SLACK_APP_TOKEN,
         signingSecret: process.env.SLACK_SIGNING_SECRET,
         logLevel: LogLevel.WARN,
+    });
+
+    app.command("/ping", async ({ ack, respond }) => {
+        await ack();
+        await respond({ response_type: "ephemeral", text: "gamble ✅" });
+    });
+
+    app.error(async (err: CodedError) => {
+        logger.error("Bolt error", {
+            code: (err as any)?.code,
+            message: err?.message,
+            stack: err?.stack,
+        });
     });
 
     app.command("/leaderboard", async ({ ack, respond }) => {
@@ -334,7 +381,7 @@ export function buildSlackApp() {
 
         const s = store.get();
         if (!s.users[userId]?.play) {
-            await respond({ response_type: "ephemeral", text: "You must opt in first. React with :siege-coin: to opy in. "});
+            await respond({ response_type: "ephemeral", text: "You must opt in first. React with :siege-coin: to opt in. "});
             return;
         }
 
@@ -356,7 +403,7 @@ export function buildSlackApp() {
                     accessory: {
                         type: "users_select",
                         action_id: "opponent",
-                        placeholder: { type: "plain_text", text: "Default: yourself" }
+                        placeholder: { type: "plain_text", text: "Default: an opponent" }
                     }
                 },
                 {
@@ -385,11 +432,37 @@ export function buildSlackApp() {
         if (!userId || !channelId) return;
 
         const vals = (body as any).state?.values;
-        const opponentId = vals?.pick?.opponent?.selected_user as string | undefined ?? userId;
+
+        const opponentId = vals?.pick?.opponent?.selected_user as string | undefined;
+
+        if (!opponentId) {
+            await respond({
+            response_type: "ephemeral",
+            text: "Pick an opponent.",
+            });
+            return;
+        }
+
+        if (opponentId === userId) {
+            await respond({
+            response_type: "ephemeral",
+            text: "You can’t challenge yourself. Pick someone else or use a dealer mode.",
+            });
+            return;
+        }
+
+        const key = `${userId}:${channelId}:challenge_confirm`;
+        if (onCooldown(key)) {
+            await respond({
+            response_type: "ephemeral",
+            text: "Please wait a moment before sending another challenge.",
+            });
+            return;
+        }
 
         const can = canStartBet(userId);
         if (!can.ok) {
-            await respond({ text: can.reason!, response_type: "ephemeral" });
+            await respond({ response_type: "ephemeral", text: can.reason! });
             return;
         }
 
@@ -401,7 +474,7 @@ export function buildSlackApp() {
             challengerId: userId,
             opponent: { kind: "user", id: opponentId },
             game,
-            stake
+            stake,
         });
 
         const textHead = `<@${userId}> challenged <@${opponentId}> to *coin flip* for *${stake}* coins.`;
@@ -409,28 +482,29 @@ export function buildSlackApp() {
         const post = await client.chat.postMessage({
             channel: channelId,
             text: textHead,
-            blocks: [{ type: "section", text: { type: "mrkdwn", text: textHead } }]
+            blocks: [{ type: "section", text: { type: "mrkdwn", text: textHead } }],
         });
         await setChallengeRootMessage(rec.id, channelId, (post as any).ts);
 
         await client.chat.postEphemeral({
             channel: channelId,
             user: opponentId,
-            text: `You were challenged by <@${userId}> to *coin flip* for *${stake}* coins. Accept or decline above.`,
+            text: `You were challenged by <@${userId}> to *coin flip* for *${stake}* coins. Accept or decline below.`,
             blocks: [
-                { type: "section", text: { type: "mrkdwn", text: textHead } },
-                {
-                    type: "actions",
-                    elements: [
-                        { type: "button", text: { type: "plain_text", text: "Accept" }, style: "primary", action_id: "challenge_accept", value: rec.id },
-                        { type: "button", text: { type: "plain_text", text: "Decline" }, style: "danger", action_id: "challenge_decline", value: rec.id }
-                    ]
-                }
-            ]
-        });
-
-        await respond({ delete_original: true });
+            { type: "section", text: { type: "mrkdwn", text: textHead } },
+            {
+                type: "actions",
+                elements: [
+                { type: "button", text: { type: "plain_text", text: "Accept" }, style: "primary", action_id: "challenge_accept", value: rec.id },
+                { type: "button", text: { type: "plain_text", text: "Decline" }, style: "danger", action_id: "challenge_decline", value: rec.id }
+                ]
+            }
+            ],
     });
+
+    await respond({ delete_original: true });
+    });
+
 
     app.command("/stopgambling", async ({ ack, respond, command }) => {
         await ack();
@@ -538,7 +612,7 @@ export function buildSlackApp() {
             await client.chat.postEphemeral({
                 channel,
                 user: userId,
-                text: "let's go **gambling**! 🎲",
+                text: "let's go *GAMBLING*! 🎲",
             });
             } catch {}
         }
@@ -594,6 +668,18 @@ export function buildSlackApp() {
                 }
             return;
             }
+
+            if (opponentId === challengerId) {
+                if (channelId) {
+                    await client.chat.postEphemeral({
+                    channel: channelId,
+                    user: challengerId,
+                    text: "You can’t challenge yourself. Pick someone else or use a dealer mode.",
+                    });
+                }
+                return;
+            }
+
 
             const game = (view.state.values?.gm?.game?.selected_option?.value ?? "coin_flip") as
                 "coin_flip" | "old_maid" | "poker" | "typing_battle";
@@ -662,6 +748,7 @@ export function buildSlackApp() {
 
     app.action("challenge_accept", async ({ ack, body, client, respond }) => {
         await ack();
+
         const action = (body as any).actions?.[0];
         const challengeId = action?.value as string | undefined;
         const userId = (body as any).user?.id as string | undefined;
@@ -669,57 +756,51 @@ export function buildSlackApp() {
         if (!challengeId || !userId || !channelId) return;
 
         const rec = getChallenge(challengeId);
-
         if (!rec) {
-            await client.chat.postEphemeral({
-            channel: channelId,
-            user: userId,
-            text: "Challenge no longer exists."
-            });
+            await respond({ replace_original: true, text: "This challenge no longer exists." });
             return;
         }
         if (rec.opponent.kind !== "user" || rec.opponent.id !== userId) {
-            await client.chat.postEphemeral({
-            channel: channelId,
-            user: userId,
-            text: "Only the challenged user can accept this."
-            });
+            await respond({ replace_original: true, text: "Only the challenged user can accept." });
             return;
         }
+
+        if (rec.state !== "pending") {
+            await respond({ replace_original: true, text: `This challenge is already ${rec.state}.` });
+            return;
+        }
+
         if (!store.get().users[userId]?.play) {
-            await client.chat.postEphemeral({
-            channel: channelId,
-            user: userId,
-            text: "Opt in first: react with :siege-coin: then tap Accept again."
-            });
+            await respond({ replace_original: false, text: "Opt in first: react with :siege-coin: then tap Accept again." });
             return;
         }
 
         const res = await acceptChallengeAndLockStake(challengeId, userId);
         if (!res.ok) {
-            await client.chat.postEphemeral({
-            channel: channelId,
-            user: userId,
-            text: `Could not accept: ${res.reason}`
-            });
+            await respond({ replace_original: false, text: `Could not accept: ${res.reason}` });
             return;
         }
 
+        await respond({ replace_original: true, text: "✅ Accepted. Stakes locked. Game starting…" });
+
         const ts = getChallenge(challengeId)?.rootTs;
-        await client.chat.postMessage({ channel: channelId, thread_ts: ts, text: `✅ <@${userId}> accepted. Stakes locked. (Game runs in Phase 5.)` });
+        await client.chat.postMessage({ channel: channelId, thread_ts: ts, text: `✅ <@${userId}> accepted. Stakes locked.` });
         if (ts) {
             await client.chat.update({
-            channel: channelId, ts,
+            channel: channelId,
+            ts,
             text: `Challenge accepted.`,
-            blocks: [{ type: "section", text: { type: "mrkdwn", text: `*Challenge accepted.*` } }]
+            blocks: [{ type: "section", text: { type: "mrkdwn", text: `*Challenge accepted.*` } }],
             });
         }
 
         await runCoinFlip(client, challengeId);
     });
 
+
     app.action("challenge_decline", async ({ ack, body, client, respond }) => {
         await ack();
+
         const action = (body as any).actions?.[0];
         const challengeId = action?.value as string | undefined;
         const userId = (body as any).user?.id as string | undefined;
@@ -728,32 +809,32 @@ export function buildSlackApp() {
 
         const rec = getChallenge(challengeId);
         if (!rec) {
-            await client.chat.postEphemeral({
-            channel: channelId,
-            user: userId,
-            text: "Challenge no longer exists."
-            });
+            await respond({ replace_original: true, text: "This challenge no longer exists." });
             return;
         }
         if (rec.opponent.kind !== "user" || rec.opponent.id !== userId) {
-            await client.chat.postEphemeral({
-            channel: channelId,
-            user: userId,
-            text: "Only the challenged user can decline this."
-            });
+            await respond({ replace_original: true, text: "Only the challenged user can decline." });
+            return;
+        }
+
+        if (rec.state !== "pending") {
+            await respond({ replace_original: true, text: `This challenge is already ${rec.state}.` });
             return;
         }
 
         await declineChallenge(challengeId, userId);
         await refundStakes(challengeId);
 
+        await respond({ replace_original: true, text: "❌ Declined." });
+
         const ts = rec.rootTs;
         await client.chat.postMessage({ channel: channelId, thread_ts: ts, text: `❌ <@${userId}> declined the challenge.` });
         if (ts) {
             await client.chat.update({
-            channel: channelId, ts,
+            channel: channelId,
+            ts,
             text: `Challenge declined.`,
-            blocks: [{ type: "section", text: { type: "mrkdwn", text: `*Challenge declined.*` } }]
+            blocks: [{ type: "section", text: { type: "mrkdwn", text: `*Challenge declined.*` } }],
             });
         }
     });
@@ -795,28 +876,218 @@ export function buildSlackApp() {
         }
     });
 
+    app.message(/rickroll/i, async ({ message, client }) => {
+        const m: any = message;
+        const userId = m.user as string | undefined;
+        if (!userId || userId === "USLACKBOT") return;
+        if (!isPlay(userId)) return;
+        if (m.subtype) return;
+
+        const { channel, ts } = getMessageSurfaceIds(m);
+        if (!channel || !ts) return;
+
+        await client.chat.postMessage({
+            channel,
+            thread_ts: m.thread_ts || ts,
+            text: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        });
+    });
+
+    app.message(/\b(i['’]?m|im)\s+poor\b/i, async ({ message, client }) => {
+        const m: any = message; const uid = m.user as string | undefined;
+        if (!uid || uid === "USLACKBOT") return;
+        if (!isPlay(uid) || m.subtype) return;
+        const { channel, ts } = getMessageSurfaceIds(m); if (!channel || !ts) return;
+        const key = `${uid}:${channel}:poor`; if (onCooldown(key)) return;
+        await safeAddReaction(client, channel, ts, "hard-same");
+    });
+
+    app.message(/\bdrama\b/i, async ({ message, client }) => {
+        const m: any = message; const uid = m.user as string | undefined;
+        if (!uid || uid === "USLACKBOT") return;
+        if (!isPlay(uid) || m.subtype) return;
+        const { channel, ts } = getMessageSurfaceIds(m); if (!channel || !ts) return;
+        const key = `${uid}:${channel}:drama`; if (onCooldown(key)) return;
+        await safeAddReaction(client, channel, ts, "cat-chips");
+    });
+
+    app.message(/\bi\s+lost\s+it\s+all\b/i, async ({ message, client }) => {
+        const m: any = message; const uid = m.user as string | undefined;
+        if (!uid || uid === "USLACKBOT") return;
+        if (!isPlay(uid) || m.subtype) return;
+        const { channel, ts } = getMessageSurfaceIds(m); if (!channel || !ts) return;
+        const key = `${uid}:${channel}:lostitall`; if (onCooldown(key)) return;
+        await safeAddReaction(client, channel, ts, "noooovanish");
+    });
+
+    app.message(/\bunders?tand\b/i, async ({ message, client }) => {
+        const m: any = message; const uid = m.user as string | undefined;
+        if (!uid || uid === "USLACKBOT") return;
+        if (!isPlay(uid) || m.subtype) return;
+        const { channel, ts } = getMessageSurfaceIds(m); if (!channel || !ts) return;
+        const key = `${uid}:${channel}:understand`; if (onCooldown(key)) return;
+        await safeAddReaction(client, channel, ts, "yesyes");
+    });
+
+    app.message(/\bvibe\b/i, async ({ message, client }) => {
+        const m: any = message; const uid = m.user as string | undefined;
+        if (!uid || uid === "USLACKBOT") return;
+        if (!isPlay(uid) || m.subtype) return;
+        const { channel, ts } = getMessageSurfaceIds(m); if (!channel || !ts) return;
+        const key = `${uid}:${channel}:vibe`; if (onCooldown(key)) return;
+        await safeAddReaction(client, channel, ts, "blob_bounce");
+    });
+
+    app.message(/\bawesome\b/i, async ({ message, client }) => {
+        const m: any = message; const uid = m.user as string | undefined;
+        if (!uid || uid === "USLACKBOT") return;
+        if (!isPlay(uid) || m.subtype) return;
+        const { channel, ts } = getMessageSurfaceIds(m); if (!channel || !ts) return;
+        const key = `${uid}:${channel}:awesome`; if (onCooldown(key)) return;
+        await safeAddReaction(client, channel, ts, "cooll-thumbs");
+    });
+
 
     //because socket is being stupid
     app.event("app_mention", async ({event, say, client}) => {
         const ev = event as any;
         const text = String((event as any).text || "").toLowerCase();
 
-        if (text.includes("hello")) {
+        if (/help/i.test(text)) {
             await client.chat.postMessage({
                 channel: ev.channel,
-                text: `hello <@${ev.user}>, start gambling RIGHT NOW!`,
+                text: "Hi! Opt in with :siege-coin:. Toggle feed with `/see on|off`. Opt out with `/stopgambling`.",
+                thread_ts: ev.thread_ts || ev.ts,
             });
             return;
         }
 
-        if (text.includes("help")) {
+        if (/\bhello\b/i.test(text) || /\bhi\b/i.test(text)) {
             await client.chat.postMessage({
-                channel: ev.channel,
-                text: "Hi ! Opt in by reacting with :siege-coin:. Toggle feed with `/see on|off`. Opt out with `/stopgambling`.",
-                thread_ts: ev.thread_ts || ev.ts,
+            channel: ev.channel,
+            text: `hello <@${ev.user}>, start gambling RIGHT NOW!`,
             });
+            return;
+        }
+
+        await client.chat.postMessage({
+            channel: ev.channel,
+            text: "What? WHY ARE YOU NOT GAMBLING",
+            thread_ts: ev.thread_ts || ev.ts,
+        });
+    });
+
+    const GAMBLE_MODAL_ID = "gamble_modal";
+
+    app.command("/gamble", async ({ ack, command, respond, client }) => {
+        await ack();
+
+        const userId = command.user_id;
+        if (!isPlay(userId)) {
+            await respond({
+            response_type: "ephemeral",
+            text: "You must opt in first. React with :siege-coin: to opt in.",
+            });
+            return;
+        }
+
+        await client.views.open({
+            trigger_id: command.trigger_id,
+            view: {
+            type: "modal",
+            callback_id: GAMBLE_MODAL_ID,
+            private_metadata: JSON.stringify({ channelId: command.channel_id }),
+            title: { type: "plain_text", text: "Gamble" },
+            submit: { type: "plain_text", text: "Flip" },
+            close: { type: "plain_text", text: "Cancel" },
+            blocks: [
+                {
+                type: "input",
+                block_id: "amt",
+                label: { type: "plain_text", text: "How many coins?" },
+                element: {
+                    type: "plain_text_input",
+                    action_id: "amount",
+                    placeholder: { type: "plain_text", text: "e.g., 5" },
+                },
+                },
+            ],
+            },
+        });
+        });
+
+        app.view(GAMBLE_MODAL_ID, async ({ ack, body, view, client }) => {
+        const userId = body.user.id as string;
+        const meta = JSON.parse(view.private_metadata || "{}") as { channelId?: string };
+        const channelId = meta.channelId as string | undefined;
+
+        const raw = view.state.values?.amt?.amount?.value ?? "";
+        const amount = Number(raw);
+
+        if (!Number.isFinite(amount) || !Number.isInteger(amount) || amount <= 0) {
+            await ack({
+            response_action: "errors",
+            errors: { amt: "Enter a positive whole number." },
+            });
+            return;
+        }
+
+        const balance = getBalance(userId);
+        if (amount > balance) {
+            await ack({
+            response_action: "errors",
+            errors: { amt: "That is not allowed (amount exceeds your balance)." },
+            });
+            return;
+        }
+
+        await ack();
+
+        const ref = `self:${view.id}`;
+        try {
+            await addTransaction(userId, "bet", -amount, {
+            refId: ref,
+            idemKey: `${ref}:bet`,
+            });
+        } catch {
+            
+        }
+
+        const coinSide = Math.random() < 0.5 ? "Heads" : "Tails";
+        const didWin = Math.random() < 0.5;
+
+        if (didWin) {
+            try {
+            await addTransaction(userId, "win", amount * 2, {
+                refId: ref,
+                idemKey: `${ref}:payout`,
+            });
+            await applyWinStreak(userId);
+            } catch {}
+        } else {
+            await applyLossStreak(userId)
+        }
+
+        const newBal = getBalance(userId);
+        const text = didWin
+            ? `🪙 Flipped *${coinSide}* — You *WIN* +${amount} (net). New balance: \`${newBal}\`.`
+            : `🪙 Flipped *${coinSide}* — You *lose* -${amount}. New balance: \`${newBal}\`.`;
+
+        try {
+            if (channelId) {
+            await client.chat.postEphemeral({ channel: channelId, user: userId, text });
+            } else {
+            const im = await client.conversations.open({ users: userId });
+            await client.chat.postMessage({ channel: im.channel!.id!, text });
+            }
+        } catch {
+            try {
+            const im = await client.conversations.open({ users: userId });
+            await client.chat.postMessage({ channel: im.channel!.id!, text });
+            } catch {}
         }
     });
+
 
     app.command("/listusers", async ({ ack, respond, client }) => {
         await ack();
@@ -845,7 +1116,11 @@ export function buildSlackApp() {
 }
 
 export async function startSlackApp(app: ReturnType<typeof buildSlackApp>) {
+    await fs.mkdir(CONFIG.dataDir, { recursive: true });
+    
     const port = Number(process.env.PORT) || 3000;
     await app.start({ port });
     logger.info("Slack app runnin (SOCKET)", { port });
+
+    scheduleJobs(app);
 }

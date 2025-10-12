@@ -21,19 +21,3 @@ make it so that it reacts to certain emojis/reactions
 
 I mean maybe like an image can be shown or smth 
 
-URGENT:
-
-PHASE 5/13
-
-Lower cooldown from 60 sec so it  can be good
-won - get more emojis
-lost - get more emojis
-gamble - maybe make it comment or actually say something?
-
-make dealer work
-add more reactions?
-
-dont let outsiders influence accept/reject
-OR do a only-visible message
-
-fix /see on and off

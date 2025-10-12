@@ -1,7 +1,6 @@
 import { store } from "./storage/fileStore.js";
 import { logger } from "./logger.js";
 
-// run once per key - more if needed
 export async function runOnce<T>(
   key: string,
   fn: () => Promise<T>,
